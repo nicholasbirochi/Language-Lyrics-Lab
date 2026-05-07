@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Language Lyrics Lab",
+    "slug": "language-lyrics-lab",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "languagelyricslab",
+    "userInterfaceStyle": "automatic",
+    "platforms": ["ios", "web"],
+    "assetBundlePatterns": ["**/*"],
+    "plugins": [
+      [
+        "expo-audio",
+        {
+          "enableBackgroundPlayback": false,
+          "enableBackgroundRecording": false
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    }
+  }
+}

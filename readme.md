@@ -1,6 +1,6 @@
 # Language Lyrics Lab
 
-Open-source Expo app for language learning with synchronized lyrics, line-by-line translations, review modes, and flashcards.
+An Expo prototype for studying songs one line at a time, with the original lyrics beside a Brazilian Portuguese translation. The code brings together lyric parsing, translation providers, study controls and audio synchronization; it still needs the runtime validation described below.
 
 The goal is to build a standalone web and iOS app where learners can study lyrics one line at a time, with the original lyric and a Brazilian Portuguese translation shown together. The project is not meant to modify any official music app. Future versions can follow currently playing music or connect to a personal music library when the provider terms and licensing model allow it.
 
@@ -105,3 +105,7 @@ The project already includes a full study flow in code:
 - Fine sync adjustment in 250 ms steps.
 
 Dependencies still need to be installed and the web/iOS targets still need to be validated on a machine with Node.js and `npm` available.
+
+## Licença
+
+Código e documentação autorais sob [MIT](license).

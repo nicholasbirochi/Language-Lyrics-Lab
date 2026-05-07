@@ -77,6 +77,13 @@ src/
 docs/              Architecture, setup notes, and roadmap.
 ```
 
+## Documentation
+
+- [Setup](docs/SETUP.md)
+- [Architecture](docs/ARCHITECTURE.md)
+- [Development History](docs/DEVELOPMENT_HISTORY.md)
+- [Roadmap](docs/ROADMAP.md)
+
 ## Lyrics Notice
 
 Song lyrics can be protected by copyright. This project should only use APIs and content sources that are allowed for the intended use case. LRCLIB is useful for personal study prototypes, but any public or commercial app needs a careful review of each provider's license and terms.
